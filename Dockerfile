@@ -11,8 +11,6 @@ RUN npm install
 
 # Copy source code
 COPY . .
-RUN npm run
-
 # Expose app port
 EXPOSE 8080
 
